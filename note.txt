@@ -3,4 +3,16 @@ go get -u github.com/gin-gonic/gin
 go get -u gorm.io/gorm
 go get -u github.com/silenceper/gowatch
 
-go mod tidy
+go mod tidy => to clear unused lib
+
+that's it for the crud
+
+now we are going to init jwt 
+go get -u golang.org/x/crypto/bcrypt
+go get -u github.com/golang-jwt/jwt/v5
+
+
+# further checklist
+- error display
+- common frame for all response
+- login with google
